@@ -1,0 +1,25 @@
+/* .NavigationItems{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    cursor: pointer;
+} */
+
+.topnav {
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    flex-flow: column;
+}
+
+@media(min-width: 500px){
+    .topnav{
+        flex-flow: row;
+    }
+}
